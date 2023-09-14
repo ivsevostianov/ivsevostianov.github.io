@@ -1,18 +1,21 @@
-const faqHeaders = document.querySelectorAll(".faqs-container .faq-header");
+// Get all toggle buttons
+const toggleButtons = document.querySelectorAll(".toggle-btn");
 
-faqHeaders.forEach((header, i) => {
-  header.addEventListener("click", () => {
-    header.nextElementSibling.classList.toggle("active");
+// Add click event listeners to toggle buttons
+toggleButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+        // Find the content container associated with the clicked button
+        const content = button.parentElement.nextElementSibling;
 
-    const open = header.querySelector(".open");
-    const close = header.querySelector(".close");
+        // Toggle the 'active' class on the content container
+        content.classList.toggle("active");
 
-    if (header.nextElementSibling.classList.contains("active")) {
-      open.classList.remove("active");
-      close.classList.add("active");
-    } else {
-      open.classList.add("active");
-      close.classList.remove("active");
-    }
-  });
+        // Toggle the button text ('+' or '-') based on the state of the content container
+        if (content.classList.contains("active")) {
+            button.textContent = "-";
+        } else {
+            button.textContent = "+";
+        }
+    });
 });
+
