@@ -62,7 +62,7 @@ footer {
     text-decoration: none;
     color: #8a9199;
     cursor: pointer;
-    background: #fff;
+    background: beige;
     transition: color, border-color ease 0.3s;
     border-radius: 2em;
   }
