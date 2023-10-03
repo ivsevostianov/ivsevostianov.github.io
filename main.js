@@ -1,4 +1,3 @@
-// Get all toggle buttons
 const toggleButtons = document.querySelectorAll(".toggle-btn");
 
 // Add click event listeners to toggle buttons

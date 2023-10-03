@@ -193,31 +193,28 @@ nav ul li a:hover {
   .faqs-container .content.active {
     max-height: 600px;
   }
-  /* Add these styles to your external CSS file (style.css) */
+
 
 .faqs-container {
   font-family: "Roboto", sans-serif;
   max-width: 700px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #efb5b5; /* Add background color to match other pages */
-  color: #fff; /* Set text color to white */
+  background-color: #efb5b5; 
+  color: #fff; 
   box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.3);
 }
 
-/* Rest of your CSS styles */
-
-/* Add these styles to your external CSS file (style.css) */
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #333; /* Add background color to match other pages */
+  background-color: #333; 
   font-family: Verdana, Geneva, sans-serif;
   font-size: 25px;
   letter-spacing: 2px;
   word-spacing: 2px;
-  color: #fff; /* Set text color to white */
+  color: #fff; 
   font-weight: 400;
   text-decoration: none;
   font-style: normal;
