@@ -11,9 +11,9 @@ toggleButtons.forEach((button) => {
 
         // Toggle the button text ('+' or '-') based on the state of the content container
         if (content.classList.contains("active")) {
-            button.textContent = "-";
+            button.textContent = " -";
         } else {
-            button.textContent = "+";
+            button.textContent =" +";
         }
     });
 });
